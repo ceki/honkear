@@ -3,7 +3,7 @@
  "http://java.sun.com/dtd/web-app_2_3.dtd" >
 
 <web-app>
-  <display-name>Archetype Created Web Application</display-name>
+  <display-name>Yoda Web Application</display-name>
   <servlet>
   	<servlet-name>YodaServlet</servlet-name>
   	<display-name>YodaServlet</display-name>
@@ -12,6 +12,6 @@
   </servlet>
   <servlet-mapping>
   	<servlet-name>YodaServlet</servlet-name>
-  	<url-pattern>/YodaServlet</url-pattern>
+  	<url-pattern>/servlet</url-pattern>
   </servlet-mapping>
 </web-app>
