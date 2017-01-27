@@ -5,13 +5,13 @@
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
   <servlet>
-  	<servlet-name>YodaServlet</servlet-name>
-  	<display-name>YodaServlet</display-name>
+  	<servlet-name>KenobiServlet</servlet-name>
+  	<display-name>KenobiServlet</display-name>
   	<description></description>
-  	<servlet-class>ch.qos.honk.yoda.YodaServlet</servlet-class>
+  	<servlet-class>ch.qos.honk.kenobi.KenobiServlet</servlet-class>
   </servlet>
   <servlet-mapping>
-  	<servlet-name>YodaServlet</servlet-name>
-  	<url-pattern>/YodaServlet</url-pattern>
+  	<servlet-name>KenobiServlet</servlet-name>
+  	<url-pattern>/servlet</url-pattern>
   </servlet-mapping>
 </web-app>
